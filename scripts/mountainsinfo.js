@@ -46,6 +46,7 @@ function createImage() {
     addImage.appendChild(img);
 }
 
+// copied from the workbook
 async function getSunsetForMountain(lat, lng) {
     let response = await fetch (
         `https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today`);
