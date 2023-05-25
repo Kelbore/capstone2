@@ -1,0 +1,62 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+/*td {
+    border: 2px solid aqua;
+    color:aqua;
+}*/
+td {
+    color:darkgrey;
+}
+.tableData {
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+nav {
+    background-color:black;
+    display: flex;
+    height: 80px;
+}
+#navbarNav {
+    justify-content: end;
+}
+#logo {
+    width: 60px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+/* home page*/
+.card {
+    border: 4px solid black;
+}
+#homeCard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#homeCarousel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 50px;
+}
+/* parks page*/
+#tableRow {
+    background-color: black;
+}
+/* mountains page*/
+#mountainTableRow {
+    background-color: black;
+}
+#mountainTableRow td{
+    color: white;
+}
+#mountainName {
+    margin-left: 200px;
+}
+
+
+
+
